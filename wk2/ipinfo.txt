@@ -1,0 +1,51 @@
+Domain Name: kenh14.vn
+
+Top Level Domain: VN (Viet Nam)
+
+IP Address: 123.30.151.82
+
+Geolocation: VN (Viet Nam), 01, An Giang, N/A Hanoi - Google Maps
+
+Reverse DNS: static.vnpt.vn
+_____________________________________________________________________
+Domain Name: instagram.com
+
+Top Level Domain: COM (Commercial TLD)
+
+IP Address: 31.13.71.174
+
+Geolocation: IE (Ireland), N/A, N/A, N/A N/A - Google Maps
+
+Reverse DNS: instagram-p42-shv-01-lga3.fbcdn.net
+_____________________________________________________________________
+Domain Name: tumblr.com
+
+Top Level Domain: COM (Commercial TLD)
+
+IP Address: 74.114.154.21
+
+Geolocation: CA (Canada), N/A, N/A, N/A N/A - Google Maps
+
+Reverse DNS entry: not found
+_____________________________________________________________________
+Domain Name: linkedin.com
+
+Top Level Domain: COM (Commercial TLD)
+
+IP Address: 13.107.42.14
+
+Geolocation: US (United States), WA, Washington, 98052 Redmond - Google Maps
+
+Reverse DNS entry: not found
+_____________________________________________________________________
+Domain Name: digitalocean.com
+
+Top Level Domain: COM (Commercial TLD)
+
+DNS Lookup
+
+IP Address: 104.16.182.15
+
+Geolocation: US (United States), N/A, N/A, N/A N/A - Google Maps
+
+Reverse DNS entry: not found

@@ -1,0 +1,15 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping google.com
+PING google.com (142.251.32.78) 56(84) bytes of data.
+64 bytes from yyz12s07-in-f14.1e100.net (142.251.32.78): icmp_seq=1 ttl=121 time=2.01 ms
+64 bytes from yyz12s07-in-f14.1e100.net (142.251.32.78): icmp_seq=2 ttl=121 time=0.965 ms
+64 bytes from yyz12s07-in-f14.1e100.net (142.251.32.78): icmp_seq=3 ttl=121 time=0.933 ms
+64 bytes from yyz12s07-in-f14.1e100.net (142.251.32.78): icmp_seq=4 ttl=121 time=0.925 ms
+64 bytes from yyz12s07-in-f14.1e100.net (142.251.32.78): icmp_seq=5 ttl=121 time=0.909 ms
+64 bytes from yyz12s07-in-f14.1e100.net (142.251.32.78): icmp_seq=6 ttl=121 time=0.993 ms
+64 bytes from yyz12s07-in-f14.1e100.net (142.251.32.78): icmp_seq=7 ttl=121 time=1.06 ms
+64 bytes from yyz12s07-in-f14.1e100.net (142.251.32.78): icmp_seq=8 ttl=121 time=0.969 ms
+64 bytes from yyz12s07-in-f14.1e100.net (142.251.32.78): icmp_seq=9 ttl=121 time=1.02 ms
+64 bytes from yyz12s07-in-f14.1e100.net (142.251.32.78): icmp_seq=10 ttl=121 time=0.992 ms
+64 bytes from yyz12s07-in-f14.1e100.net (142.251.32.78): icmp_seq=11 ttl=121 time=0.969 ms
+^C
+--- google.com ping statistics ---

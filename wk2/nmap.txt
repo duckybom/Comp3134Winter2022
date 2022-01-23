@@ -1,0 +1,65 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap google.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-23 23:27 UTC
+Nmap scan report for google.com (142.251.33.174)
+Host is up (0.0015s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:807::200e
+rDNS record for 142.251.33.174: yyz10s17-in-f14.1e100.net
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.65 seconds
+____________________________________________________________________
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 10 google.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-23 23:28 UTC
+Nmap scan report for google.com (142.251.33.174)
+Host is up (0.0015s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:80c::200e
+rDNS record for 142.251.33.174: yyz10s17-in-f14.1e100.net
+
+PORT   STATE    SERVICE
+10/tcp filtered unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.31 seconds
+____________________________________________________________________
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 10-25 google.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-23 23:29 UTC
+Nmap scan report for google.com (142.251.33.174)
+Host is up (0.0016s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:80c::200e
+rDNS record for 142.251.33.174: yyz10s17-in-f14.1e100.net
+
+PORT   STATE    SERVICE
+10/tcp filtered unknown
+11/tcp filtered systat
+12/tcp filtered unknown
+13/tcp filtered daytime
+14/tcp filtered unknown
+15/tcp filtered netstat
+16/tcp filtered unknown
+17/tcp filtered qotd
+18/tcp filtered msp
+19/tcp filtered chargen
+20/tcp filtered ftp-data
+21/tcp filtered ftp
+22/tcp filtered ssh
+23/tcp filtered telnet
+24/tcp filtered priv-mail
+25/tcp filtered smtp
+
+Nmap done: 1 IP address (1 host up) scanned in 1.52 seconds
+____________________________________________________________________
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -F google.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-23 23:30 UTC
+Nmap scan report for google.com (142.251.33.174)
+Host is up (0.0016s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:80c::200e
+rDNS record for 142.251.33.174: yyz10s17-in-f14.1e100.net
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.93 seconds
+
