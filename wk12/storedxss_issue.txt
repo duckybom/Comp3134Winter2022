@@ -1,0 +1,1 @@
+PHP is diverting to the referenced url by executing the text written in the txt file.

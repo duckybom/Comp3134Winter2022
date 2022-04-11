@@ -1,0 +1,2 @@
+csfr_form.php: Form has been submitted successfully
+csfr.html: Form failed to submit as confirmation variable not found

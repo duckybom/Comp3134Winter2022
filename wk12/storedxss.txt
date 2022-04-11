@@ -1,0 +1,1 @@
+<script>document.location.href="/directory_traversal_part_1.php"</script>
